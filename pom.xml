@@ -19,12 +19,11 @@
 	</properties>
 
 	<repositories>
-		<repository>
-			<id>mulesoft-releases</id>
-			<name>MuleSoft Repository</name>
-			<url>https://repository.mulesoft.org/nexus/content/repositories/public/</url>
-		</repository>
-	</repositories>
+             <repository>
+                 <id>jitpack.io</id>
+                 <url>https://jitpack.io</url>
+             </repository>
+    </repositories>
 
 	<dependencies>
 		<dependency>
@@ -85,10 +84,10 @@
 			<version>2.2.1</version>
 		</dependency>
 		<dependency>
-			<groupId>com.github.ralfstuckert.pdfbox-layout</groupId>
-			<artifactId>pdfbox2-layout</artifactId>
-			<version>1.0.0</version>
-		</dependency>
+            <groupId>com.github.ralfstuckert.pdfbox-layout</groupId>
+            <artifactId>pdfbox2-layout</artifactId>
+            <version>0.8.6</version>
+        </dependency>
 		<dependency>
 			<groupId>com.google.code.findbugs</groupId>
 			<artifactId>jsr305</artifactId>
