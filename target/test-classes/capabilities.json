@@ -1,0 +1,50 @@
+[
+	{
+		"id": "defaultAndroid",
+		"capability": {
+			"caps": {
+  			"appActivity": "com.tns.NativeScriptActivity",
+  			"appPackage": "cl.movistar.android",
+  			"deviceName": "Android Device",
+  			"platformName": "android",
+  			"platformVersion": "11",
+  			"automationName": "UiAutomator2"
+			}
+		}
+	},
+	{
+		"id": "defaultIOS",
+		"capability": {
+			"caps": {
+				"automationName": "XCUITest",
+				"deviceName": "iPhone Simulator",
+				"noReset": false,
+				"platformName": "iOS",
+				"platformVersion": "11"
+			}
+		}
+	},
+	{
+		"id": "defaultDesktop",
+		"capability": {
+			"caps": {
+				"deviceName": "WindowsPC",
+				"platformName": "Windows",
+				"app": "C:\\Windows\\System32\\notepad.exe"
+			}
+		}
+	},
+	{
+		"id": "undefined",
+		"capability": {
+			"caps": {
+				"appActivity": "asd",
+				"appPackage": "asdas",
+				"deviceName": "asd",
+				"noReset": false,
+				"platformName": "android",
+				"platformVersion": "10"
+			}
+		}
+	}
+]

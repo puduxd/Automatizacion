@@ -1,0 +1,50 @@
+[
+	{
+		"id": "defaultAndroid",
+		"capability": {
+			"caps": {
+				"automationName": "UiAutomator2",
+				"deviceName": "Android Device",
+				"noReset": false,
+				"platformName": "Android",
+				"platformVersion": "9",
+				"app": "apps/movistar-wv.apk"
+			}
+		}
+	},
+	{
+		"id": "defaultIOS",
+		"capability": {
+			"caps": {
+				"automationName": "XCUITest", //Disponible desde iOS 9.3 o superior
+				"deviceName": "iPhone Simulator",
+				"noReset": false,
+				"platformName": "iOS",
+				"platformVersion": "11"
+			}
+		}
+	},
+	{
+		"id": "defaultDesktop",
+		"capability": {
+			"caps": {
+				"deviceName": "WindowsPC",
+				"platformName": "Windows",
+				"app": "C:\\Windows\\System32\\notepad.exe"
+			}
+		}
+	},
+	{
+		"id": "undefined",
+		"capability": {
+			"caps": {
+				"appActivity": "asd",
+				"appPackage": "asdas",
+				"deviceName": "asd",
+				"noReset": false,
+				"platformName": "android",
+				"platformVersion": "10"
+			}
+		}
+	}
+]
